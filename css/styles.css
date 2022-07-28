@@ -378,6 +378,30 @@ img {
   cursor: pointer;
 }
 
+.form-title {
+  display: block;
+  margin-bottom: 12px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: calc(23 / 20);
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.modal-form {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  gap: 4px;
+}
+
 /* Feature section */
 
 .feature-list {
@@ -841,6 +865,7 @@ img {
 }
 
 .footer-btn {
+  display: inline-flex;
   width: 200px;
   height: 50px;
   color: #fff;
@@ -848,7 +873,6 @@ img {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   border-color: transparent;
-  display: inline-flex;
   align-items: center;
   text-align: center;
   justify-content: center;
